@@ -1,0 +1,83 @@
+
+.html{
+    display:inline-flex;
+    margin:0;
+}
+
+body{
+    margin-top: 10px;
+    background-image: url(../images/fundo.jpeg);
+
+}
+
+.heroOne__image {
+    border-radius: 10%;
+    border-color: black;
+    border: solid;
+    border-width: 6px;
+}
+
+.heroTwo__image {
+    border-radius: 10%;
+    border-color: black;
+    border: solid;
+    border-width: 10px;
+    left: 10px;
+}
+
+
+.heroesBox {
+    display:flex;
+    justify-content:space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.heroesBox,button{
+
+    align-items: center;
+}
+
+.button{
+    background-color: green;
+}
+
+.heroOne,p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    text-align: center;
+
+}
+
+.heroOne,h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:yellow;
+   font-size:xx-large;
+
+
+}
+
+.heroTwo,p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.heroTwo,h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:yellow;
+   font-size:xx-large;
+
+}
+
+.total{
+    color: rgb(19, 189, 50);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
